@@ -1,0 +1,38 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+.container__card {
+    padding-left: 32px;
+    display: flex;
+    height: 330px;
+    width: fit-content;
+    max-width: 500px;
+    border: solid 1px #000000;
+}
+
+.container__card div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container__card p {
+    text-wrap: wrap;
+    font-weight: 500;
+    font-size: 1rem;
+    max-width: 260px;
+}
+
+.container__card img {
+    padding-left: 32px;
+    height: 330px;
+    
+}
+
+.container__card a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 900;
+}
